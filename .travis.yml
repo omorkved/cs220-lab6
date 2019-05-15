@@ -1,0 +1,15 @@
+addons:
+  apt:
+      packages:
+            - libyaml-dev
+
+branches:
+  only:
+    - master
+
+language: c
+
+compiler: gcc
+
+script:
+  - make
